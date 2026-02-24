@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Vpastaria | Software Engineer</title>
+<title>Varun Pastaria | Senior Software Engineer</title>
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui}
@@ -13,6 +13,7 @@ a{color:#38bdf8;text-decoration:none}
 header{
 position:sticky;top:0;background:#020617;
 border-bottom:1px solid #1e293b;
+z-index:100;
 }
 nav{
 max-width:1100px;margin:auto;
@@ -48,6 +49,8 @@ font-weight:600;
 margin-top:1rem;
 }
 
+ul{margin-left:1.2rem;margin-top:.5rem}
+
 footer{
 text-align:center;
 padding:2rem;
@@ -63,20 +66,22 @@ font-size:.9rem;
 <header>
 <nav>
 <a href="#home">Home</a>
+<a href="#experience">Experience</a>
 <a href="#projects">Projects</a>
 <a href="#skills">Skills</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
 
+<!-- HERO -->
 <section id="home" class="hero">
-<h1>Vpastaria</h1>
-<p>Software Engineer • AI/ML Enthusiast</p>
+<h1>Varun Pastaria</h1>
+<p>Senior Software Engineer • Distributed Systems • Cloud • AI</p>
 
 <p style="margin-top:1rem">
-I build full-stack applications, work with databases,
-and explore machine learning solutions to real-world problems.
-Passionate about scalable systems, clean code, and impactful software.
+Senior Software Engineer with experience building large-scale backend systems,
+cloud-native microservices, and high-performance data pipelines.
+Specialized in AWS, distributed architectures, and production-grade software.
 </p>
 
 <a class="btn" href="https://github.com/vpastaria-del" target="_blank">
@@ -84,85 +89,137 @@ View GitHub Profile
 </a>
 </section>
 
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Senior Software Engineer — Standard Chartered Bank</h3>
+<p><i>Sep 2023 – Jul 2025</i></p>
+<ul>
+<li>Optimized production data pipelines processing 1M+ records/day (25% performance gain)</li>
+<li>Designed serverless AWS workflows using Lambda + SQS (40% cost reduction)</li>
+<li>Improved API performance and throughput under peak load</li>
+<li>Led release process improvements doubling deployment velocity</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Software Engineer — Dollar General</h3>
+<p><i>Sep 2022 – Aug 2023</i></p>
+<ul>
+<li>Built distributed backend services for retail analytics at scale</li>
+<li>Developed cloud-ready microservices using Node.js + PostgreSQL</li>
+<li>Reduced database bottlenecks by 40% through indexing and caching</li>
+<li>Implemented resilient APIs with rate limiting and retries</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Google Summer of Code — OpenMRS (AI Med Ed)</h3>
+<p><i>May 2025 – Aug 2025</i></p>
+<ul>
+<li>Developed AI-assisted learning features for medical education systems</li>
+<li>Built APIs integrating machine learning models</li>
+<li>Contributed to global open-source healthcare platform</li>
+</ul>
+</div>
+
+</section>
+
+<!-- PROJECTS -->
 <section id="projects">
 <h2>Projects</h2>
 
 <div class="grid">
 
 <div class="card">
-<h3>Veterinary System</h3>
+<h3>Serverless Data Pipeline System</h3>
 <p>
-Full-stack CRUD web application for managing veterinary data,
-patients, and records using a database-driven backend.
+Event-driven architecture using AWS Lambda, SQS, and cloud storage
+to process large-scale datasets efficiently and cost-effectively.
 </p>
-<p><b>Tech:</b> SQL, C#, HTML/CSS</p>
+<p><b>Tech:</b> AWS, Lambda, SQS, Python, SQL</p>
 <a href="https://github.com/vpastaria-del" target="_blank">View Code →</a>
 </div>
 
 <div class="card">
-<h3>Frontend Veterinary App</h3>
+<h3>Distributed Microservices Platform</h3>
 <p>
-Modern web interface interacting with APIs to manage animal
-records and clinic operations.
+Scalable backend services handling high-volume transactions with
+fault tolerance, retries, and observability.
 </p>
-<p><b>Tech:</b> JavaScript, Vue, SCSS</p>
+<p><b>Tech:</b> Node.js, PostgreSQL, Docker, REST APIs</p>
 <a href="https://github.com/vpastaria-del" target="_blank">View Code →</a>
 </div>
 
 <div class="card">
-<h3>Database-Driven Web Systems</h3>
+<h3>AI Med Ed OpenMRS Contribution</h3>
 <p>
-Projects focused on database design, stored procedures,
-and scalable backend logic.
+Open-source healthcare platform enhancements enabling AI-assisted
+clinical training workflows.
 </p>
-<p><b>Tech:</b> SQL, Backend Development</p>
+<p><b>Tech:</b> Java, APIs, Machine Learning Integration</p>
 <a href="https://github.com/vpastaria-del" target="_blank">View Code →</a>
 </div>
 
 </div>
 </section>
 
+<!-- SKILLS -->
 <section id="skills">
 <h2>Skills</h2>
 
 <div class="grid">
 
 <div class="card">
-<h3>Languages</h3>
-<p>Python • Java • C# • JavaScript • SQL</p>
+<h3>Programming Languages</h3>
+<p>Python • Java • C++ • JavaScript • TypeScript • SQL</p>
 </div>
 
 <div class="card">
-<h3>Web Development</h3>
-<p>HTML • CSS • Vue • REST APIs • Full-Stack</p>
+<h3>Backend & APIs</h3>
+<p>Node.js • Django • Flask • GraphQL • REST • Microservices</p>
 </div>
 
 <div class="card">
-<h3>AI / ML</h3>
-<p>Machine Learning • Data Analysis • Python ML Stack</p>
+<h3>Frontend</h3>
+<p>React • Next.js • HTML • CSS</p>
 </div>
 
 <div class="card">
-<h3>Tools</h3>
-<p>Git • Docker • Linux • VS Code</p>
+<h3>Databases</h3>
+<p>PostgreSQL • MongoDB • SQL/NoSQL</p>
+</div>
+
+<div class="card">
+<h3>Cloud & DevOps</h3>
+<p>AWS (Lambda) • Docker • Jenkins • Linux • Git • CI/CD</p>
+</div>
+
+<div class="card">
+<h3>Concepts</h3>
+<p>Distributed Systems • System Design • OOP • Data Structures</p>
 </div>
 
 </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact">
 <h2>Contact</h2>
 
 <div class="card">
-<p>Email: your-email@example.com</p>
+<p>Email: pastariavarun70@gmail.com</p>
+<p>Phone: 608-572-8064</p>
 <p>GitHub: <a href="https://github.com/vpastaria-del">vpastaria-del</a></p>
-<p>LinkedIn: Add your link</p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/varun-pastaria/">Varun Pastaria</a></p>
 </div>
 
 </section>
 
 <footer>
-© 2026 Vpastaria — Software Engineer Portfolio
+© 2026 Varun Pastaria — Senior Software Engineer Portfolio
 </footer>
 
 </body>
